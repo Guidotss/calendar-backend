@@ -1,4 +1,4 @@
-import { Events } from '../services/events.js';
+import { Events } from '../services/Events.js';
 import { validateErrors } from '../middlewares/validate-errors.js';
 
 const events = new Events();
