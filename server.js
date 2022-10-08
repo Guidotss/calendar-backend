@@ -4,7 +4,9 @@ import eventsRoutes from './routes/events.routes.js';
 import authRoutes from './routes/auth.routes.js';
 import userRoutes from './routes/user.routes.js';
 import cors from 'cors';
+import dotenv from 'dotenv';
 import './database/connect.js';
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 4000; 
